@@ -1,0 +1,18 @@
+.botoness {
+    @extend %botonBase;
+    background-color: rgb(229, 194, 194);
+    color: rgb(255, 255, 255);
+}
+
+.boton{
+    @include boton (rgb(244, 211, 211), rgb(0, 0, 0) )
+}
+.boton__nav{
+    padding-left: 50px;
+}
+.formulario{
+    padding-top: 60px;
+}
+.color__botones{
+    background-color:rgb(234, 247, 200)
+}

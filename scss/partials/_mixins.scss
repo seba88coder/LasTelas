@@ -1,0 +1,6 @@
+@mixin boton ($bgColor, $textColor) {
+    padding: 9px;
+    border-radius: 05px;
+    background-color: $bgColor;
+    color: $textColor;
+}

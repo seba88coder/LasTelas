@@ -1,0 +1,65 @@
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./partials/extends";
+@import "./partials/botones";
+@import "./partials/medidas";
+@import "./partials/navbar";
+@import "./partials/cards";
+@import "./partials/footer";
+
+@import "./partials/animaciones";
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,200;0,300;0,600;0,700;1,300 & display=swap');
+
+
+ body{
+     font-family: 'Righteous', cursive;
+     background-color: #cbddf8; 
+   
+ 
+    }
+
+
+
+ .mr-auto{
+    display: flex;
+    align-items: center; 
+}
+
+  .color__texto{
+    color: rgb(0, 0, 0);
+  }
+
+  .novedades {
+    display: flex;
+     justify-content: center;
+     margin-top: 60px;
+  }
+  
+  .bg-warning {
+    display: flex;
+    width: auto;
+    height: 70px;
+  }
+  
+  .mr-auto {
+     display: flex;
+   align-items: center;
+}
+.parrafo{
+  padding: 7.9rem 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+  .borde__header{
+    height: 120px;
+  }
+
+
+
+.color__texto{
+  color: #000000;
+  list-style-type: none;
+
+}
